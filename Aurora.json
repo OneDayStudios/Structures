@@ -4,7 +4,7 @@
     "schematic": "Aurora.schematic",
     "minGravity": 0.0,
     "maxGravity": 1.0,
-    "limitPerCelestial": 25,
+    "limitPerDimension": 25,
     "baseChance": 50.0,
     "limitPerSystem": 100,
     "limitPerGalaxy": 250,
@@ -12,7 +12,7 @@
     "minDistanceBetween": 50,
     "minDistanceBetweenSameType": 75,
     "requiresAtmosphere": false,
-    "spawnsInEmptySpace": false
+    "spawnsInEmptySpace": false,
     "spawnsInSurfaceLiquidsOn": {
       "TEMPERATE_WORLD": 25.0,
       "UNSTABLE_WORLD": 25.0,
