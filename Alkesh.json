@@ -12,7 +12,7 @@
     "minDistanceBetween": 50,
     "minDistanceBetweenSameType": 75,
     "requiresAtmosphere": false,
-    "spawnsInEmptySpace": false
+    "spawnsInEmptySpace": false,
     "spawnsInSurfaceLiquidsOn": {
       "TEMPERATE_WORLD": 25.0,
       "UNSTABLE_WORLD": 25.0,
