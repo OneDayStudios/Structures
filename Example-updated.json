@@ -591,6 +591,8 @@
         "name": "ExampleStructure",
         "enterTitle": "MyExampleTitle",
         "maxGravity": 1.0,
-        "enterDescription": "MyExampleDescription"
+        "enterDescription": "MyExampleDescription",
+        "isProtected": false,
+        "isSpawn": false
     }
 }
