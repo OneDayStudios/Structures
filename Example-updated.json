@@ -43,6 +43,30 @@
 		"titleColor": "LIGHT_BLUE",
 		"subTitleColor": "PURPLE",
 		"descriptionColor": "RED"	
+	},
+	"clusterLimit": 100,
+	"galaxyLimit": 25,
+	"systemLimit": 10,
+	"landableLimit": 2,
+	"clustersCanSpawnWhitelist": true, // True = Whitelist, False = Blacklist
+	"clustersCanSpawn": { // Only allow structures to spawn in certain clusters. Leave blank for all or to respect a different location filter.
+		"L",
+		"P"
+	},
+	"systemsCanSpawnWhitelist": false, // True = Whitelist, False = Blacklist
+	"systemsCanSpawn": { // Only allow structures to spawn in certain systems. Leave blank for all or to respect a different location filter.
+		"P2X-SYSTEM-PL",
+		"M12-SYSTEM-ML"
+	},
+	"galaxiesCanSpawnWhitelist": true, // True = Whitelist, False = Blacklist
+	"galaxiesCanSpawn": { // Only allow structures to spawn in certain galaxies. Leave blank for all or to respect a different location filter.
+		"OL",
+		"OP"
+	},
+	"landablesCanSpawnWhitelist": false, // True = Whitelist, False = Blacklist
+	"landablesCanSpawn": { // Only allow structures to spawn in certain landable moons or planets. Leave blank for all or to respect a different location filter.
+		"P2X3YZ0PL",
+		"M125780ML"
 	}
 	"onlySpawnsAsSpawn": true,
 	"spawnsNpcsIfUndamaged": true,
