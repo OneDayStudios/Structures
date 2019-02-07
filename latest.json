@@ -1,6 +1,7 @@
 {
   "isSpawn": false,
   "isProtected": false,
+  "doesRepair": false,
   "grantsLocationQuestCredit": true,
   "locationName": "Example",
   "locationCreditGui": {
@@ -36,7 +37,8 @@
     "titleColor": "LIGHT_BLUE",
     "subTitleColor": "PURPLE",
     "descriptionColor": "RED"
-  }"grantQuestFailedGui": {
+  },
+  "grantQuestFailedGui": {
     "title": "MyTitle",
     "subTitle": "MySubTitle",
     "description": "description",
