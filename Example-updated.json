@@ -1,5 +1,6 @@
 {
 	"isSpawn": false,
+	"isProtected": false,
 	"grantsLocationQuestCredit": true,
 	"locationName": "Example",	
 	"locationCreditGui": {
