@@ -1,0 +1,438 @@
+{
+  "isSpawn": false,
+  "isProtected": false,
+  "grantsLocationQuestCredit": true,
+  "locationName": "Example",
+  "locationCreditGui": {
+    "title": "MyTitle",
+    "subTitle": "MySubTitle",
+    "description": "description",
+    "titleColor": "LIGHT_BLUE",
+    "subTitleColor": "PURPLE",
+    "descriptionColor": "RED"
+  },
+  "exitGui": {
+    "title": "MyTitle",
+    "subTitle": "MySubTitle",
+    "description": "description",
+    "titleColor": "LIGHT_BLUE",
+    "subTitleColor": "PURPLE",
+    "descriptionColor": "RED"
+  },
+  "entryGui": {
+    "title": "MyTitle",
+    "subTitle": "MySubTitle",
+    "description": "description",
+    "titleColor": "LIGHT_BLUE",
+    "subTitleColor": "PURPLE",
+    "descriptionColor": "RED"
+  },
+  "schematic": "Example.schematic",
+  "grantsQuestIfEligible": "MyTestQuestName",
+  "grantQuestSuccessGui": {
+    "title": "MyTitle",
+    "subTitle": "MySubTitle",
+    "description": "description",
+    "titleColor": "LIGHT_BLUE",
+    "subTitleColor": "PURPLE",
+    "descriptionColor": "RED"
+  }"grantQuestFailedGui": {
+    "title": "MyTitle",
+    "subTitle": "MySubTitle",
+    "description": "description",
+    "titleColor": "LIGHT_BLUE",
+    "subTitleColor": "PURPLE",
+    "descriptionColor": "RED"
+  },
+  "clusterLimit": 100,
+  "galaxyLimit": 25,
+  "systemLimit": 10,
+  "landableLimit": 2,
+  "clustersCanSpawnWhitelist": true,
+  "clustersCanSpawn": {
+    "L",
+    "P"
+  },
+  "systemsCanSpawnWhitelist": false,
+  "systemsCanSpawn": {
+    "P2X-SYSTEM-PL",
+    "M12-SYSTEM-ML"
+  },
+  "galaxiesCanSpawnWhitelist": true,
+  "galaxiesCanSpawn": {
+    "OL",
+    "OP"
+  },
+  "landablesCanSpawnWhitelist": false,
+  "landablesCanSpawn": {
+    "P2X3YZ0PL",
+    "M125780ML"
+  }"onlySpawnsAsSpawn": true,
+  "spawnsNpcsIfUndamaged": true,
+  "spawnsNpcsIfDamaged": true,
+  "npcSpawnForcePersistence": true,
+  "npcSpawnForceDespawn": true,
+  "npcsForcePersistIfDamaged": false,
+  "npcsForcePersistIfUndamaged": true,
+  "npcsForceNaturalDespawnIfDamaged": false,
+  "npcsForceNaturalDespawnIfUnDamaged": true,
+  "structureRatedMaxTemperature": 100.0,
+  "structureRatedMinTemperature": -50.0,
+  "baseTempMin": -50.0,
+  "baseTempMax": 50.0,
+  "temperatureBasedSpawn": true,
+  "temperatureBasedDamage": true,
+  "npcSpawnsInsideStructure": false,
+  "npcSpawnsOutsideStructure": false,
+  "npcsGlobalCanSpawn": false,
+  "randomSpawnNpcTitles": {
+    "Captain",
+    "First mate"
+  },
+  "requiresSettlement": false,
+  "requiresNoSettlement": false,
+  "spawnsForAllSettlableFactions": true,
+  "doesntSpawnForSettlableFactions": true,
+  "spawnsForFactions": {
+    "Tauri",
+    "Goauld"
+  },
+  "spawnOptions": {
+    "DeepUnderground"{
+      "enabled": false,
+      "chance": 5.0,
+      "chance_damaged_90": 5.0,
+      "chance_damaged_75": 5.0,
+      "chance_damaged_50": 5.0,
+      "chance_damaged_25": 5.0,
+      "chance_damaged_5": 5.0,
+      "chance_damaged_0": 5.0,
+      "npcSpawnEnabled": false,
+      "damagedByNoAtmosphere": false,
+      "damagedByAtmosphere": true,
+      "celestialClasses": {
+        "ICY_WORLD": 10.0,
+        "UNSTABLE_WORLD": 10.0,
+        "DESERT_WORLD": 10.0,
+        "ISLAND_WORLD": 10.0,
+        "OCEANIC_WORLD": 10.0,
+        "TEMPERATE_WORLD": 10.0
+      },
+      "biomes": {
+        "Plains": 100.0,
+        "Ocean": 100.0
+      }
+    },
+    "NearSurfaceUnderground"{
+      "enabled": false,
+      "chance": 5.0,
+      "chance_damaged_90": 5.0,
+      "chance_damaged_75": 5.0,
+      "chance_damaged_50": 5.0,
+      "chance_damaged_25": 5.0,
+      "chance_damaged_5": 5.0,
+      "chance_damaged_0": 5.0,
+      "npcSpawnEnabled": false,
+      "damagedByNoAtmosphere": false,
+      "damagedByAtmosphere": true,
+      "celestialClasses": {
+        "OCEAN_WORLD": 100.0,
+        "TEMPERATE_WORLD": 100.0
+      },
+      "biomes": {
+        "Plains": 100.0,
+        "Ocean": 100.0
+      }
+    },
+    "OnSurfaceUnderWater"{
+      "enabled": false,
+      "chance": 5.0,
+      "chance_damaged_90": 5.0,
+      "chance_damaged_75": 5.0,
+      "chance_damaged_50": 5.0,
+      "chance_damaged_25": 5.0,
+      "chance_damaged_5": 5.0,
+      "chance_damaged_0": 5.0,
+      "npcSpawnEnabled": false,
+      "damagedByNoAtmosphere": false,
+      "damagedByAtmosphere": true,
+      "celestialClasses": {
+        "ICY_WORLD": 10.0,
+        "UNSTABLE_WORLD": 10.0,
+        "DESERT_WORLD": 10.0,
+        "ISLAND_WORLD": 10.0,
+        "OCEANIC_WORLD": 10.0,
+        "TEMPERATE_WORLD": 10.0
+      },
+      "biomes": {
+        "Plains": 100.0,
+        "Ocean": 100.0
+      }
+    },
+    "InWater"{
+      "enabled": false,
+      "chance": 5.0,
+      "baseTempMin": -50.0,
+      "baseTempMax": 50.0,
+      "temperatureBasedDamage": true,
+      "chance_damaged_90": 5.0,
+      "chance_damaged_75": 5.0,
+      "chance_damaged_50": 5.0,
+      "chance_damaged_25": 5.0,
+      "chance_damaged_5": 5.0,
+      "chance_damaged_0": 5.0,
+      "npcSpawnEnabled": false,
+      "damagedByNoAtmosphere": false,
+      "damagedByAtmosphere": true,
+      "celestialClasses": {
+        "ICY_WORLD": 10.0,
+        "UNSTABLE_WORLD": 10.0,
+        "DESERT_WORLD": 10.0,
+        "ISLAND_WORLD": 10.0,
+        "OCEANIC_WORLD": 10.0,
+        "TEMPERATE_WORLD": 10.0
+      },
+      "biomes": {
+        "Plains": 100.0,
+        "Ocean": 100.0
+      }
+    },
+    "OnWaterSurface"{
+      "enabled": false,
+      "chance": 5.0,
+      "chance_damaged_90": 5.0,
+      "chance_damaged_75": 5.0,
+      "chance_damaged_50": 5.0,
+      "chance_damaged_25": 5.0,
+      "chance_damaged_5": 5.0,
+      "chance_damaged_0": 5.0,
+      "npcSpawnEnabled": false,
+      "damagedByNoAtmosphere": false,
+      "damagedByAtmosphere": true,
+      "celestialClasses": {
+        "ICY_WORLD": 10.0,
+        "UNSTABLE_WORLD": 10.0,
+        "DESERT_WORLD": 10.0,
+        "ISLAND_WORLD": 10.0,
+        "OCEANIC_WORLD": 10.0,
+        "TEMPERATE_WORLD": 10.0
+      },
+      "biomes": {
+        "Plains": 100.0,
+        "Ocean": 100.0
+      }
+    },
+    "OnSolidSurface"{
+      "enabled": false,
+      "chance": 5.0,
+      "chance_damaged_90": 5.0,
+      "chance_damaged_75": 5.0,
+      "chance_damaged_50": 5.0,
+      "chance_damaged_25": 5.0,
+      "chance_damaged_5": 5.0,
+      "chance_damaged_0": 5.0,
+      "npcSpawnEnabled": false,
+      "damagedByNoAtmosphere": false,
+      "damagedByAtmosphere": true,
+      "celestialClasses": {
+        "ICY_WORLD": 10.0,
+        "UNSTABLE_WORLD": 10.0,
+        "DESERT_WORLD": 10.0,
+        "ISLAND_WORLD": 10.0,
+        "OCEANIC_WORLD": 10.0,
+        "TEMPERATE_WORLD": 10.0
+      },
+      "biomes": {
+        "Plains": 100.0,
+        "Ocean": 100.0
+      }
+    },
+    "InAir"{
+      "enabled": false,
+      "chance": 5.0,
+      "chance_damaged_90": 5.0,
+      "chance_damaged_75": 5.0,
+      "chance_damaged_50": 5.0,
+      "chance_damaged_25": 5.0,
+      "chance_damaged_5": 5.0,
+      "chance_damaged_0": 5.0,
+      "npcSpawnEnabled": false,
+      "damagedByNoAtmosphere": false,
+      "damagedByAtmosphere": true,
+      "celestialClasses": {
+        "ICY_WORLD": 10.0,
+        "UNSTABLE_WORLD": 10.0,
+        "DESERT_WORLD": 10.0,
+        "ISLAND_WORLD": 10.0,
+        "OCEANIC_WORLD": 10.0,
+        "TEMPERATE_WORLD": 10.0
+      },
+      "biomes": {
+        "Plains": 100.0,
+        "Ocean": 100.0
+      }
+    },
+    "InLowOrbit"{
+      "enabled": false,
+      "chance": 5.0,
+      "chance_damaged_90": 5.0,
+      "chance_damaged_75": 5.0,
+      "chance_damaged_50": 5.0,
+      "chance_damaged_25": 5.0,
+      "chance_damaged_5": 5.0,
+      "chance_damaged_0": 5.0,
+      "npcSpawnEnabled": false,
+      "damagedByNoAtmosphere": false,
+      "damagedByAtmosphere": true,
+      "celestialClasses": {
+        "ICY_WORLD": 10.0,
+        "CLASS_F_STAR": 10.0,
+        "CLASS_G_STAR": 10.0,
+        "ICY_WORLD": 10.0,
+        "CLASS_A_STAR": 10.0,
+        "UNSTABLE_WORLD": 10.0,
+        "CLASS_B_STAR": 10.0,
+        "DESERT_WORLD": 10.0,
+        "CLASS_K_STAR": 10.0,
+        "CLASS_M_STAR": 10.0,
+        "CLASS_T_STAR": 10.0,
+        "CLASS_BLACKHOLE_STAR": 10.0,
+        "CLASS_NEUTRON_STAR": 10.0,
+        "ISLAND_WORLD": 10.0,
+        "BLUE_GAS_GIANT": 10.0,
+        "CLASS_L_STAR": 10.0,
+        "OCEANIC_WORLD": 10.0,
+        "YELLOW_GAS_GIANT": 10.0,
+        "METALLIC_WORLD": 10.0,
+        "TEMPERATE_WORLD": 10.0,
+        "GREEN_GAS_GIANT": 10.0,
+        "PURPLE_GAS_GIANT": 10.0,
+        "CLASS_O_STAR": 10.0,
+        "ROCK_WORLD": 10.0,
+        "RED_GAS_GIANT": 10.0
+      },
+      
+    },
+    "InOrbit"{
+      "enabled": false,
+      "chance": 5.0,
+      "chance_damaged_90": 5.0,
+      "chance_damaged_75": 5.0,
+      "chance_damaged_50": 5.0,
+      "chance_damaged_25": 5.0,
+      "chance_damaged_5": 5.0,
+      "chance_damaged_0": 5.0,
+      "npcSpawnEnabled": false,
+      "damagedByNoAtmosphere": false,
+      "damagedByAtmosphere": true,
+      "celestialClasses": {
+        "ICY_WORLD": 10.0,
+        "CLASS_F_STAR": 10.0,
+        "CLASS_G_STAR": 10.0,
+        "ICY_WORLD": 10.0,
+        "CLASS_A_STAR": 10.0,
+        "UNSTABLE_WORLD": 10.0,
+        "CLASS_B_STAR": 10.0,
+        "DESERT_WORLD": 10.0,
+        "CLASS_K_STAR": 10.0,
+        "CLASS_M_STAR": 10.0,
+        "CLASS_T_STAR": 10.0,
+        "CLASS_BLACKHOLE_STAR": 10.0,
+        "CLASS_NEUTRON_STAR": 10.0,
+        "ISLAND_WORLD": 10.0,
+        "BLUE_GAS_GIANT": 10.0,
+        "CLASS_L_STAR": 10.0,
+        "OCEANIC_WORLD": 10.0,
+        "YELLOW_GAS_GIANT": 10.0,
+        "METALLIC_WORLD": 10.0,
+        "TEMPERATE_WORLD": 10.0,
+        "GREEN_GAS_GIANT": 10.0,
+        "PURPLE_GAS_GIANT": 10.0,
+        "CLASS_O_STAR": 10.0,
+        "ROCK_WORLD": 10.0,
+        "RED_GAS_GIANT": 10.0
+      },
+      
+    },
+    "InHighOrbit"{
+      "enabled": false,
+      "chance": 5.0,
+      "chance_damaged_90": 5.0,
+      "chance_damaged_75": 5.0,
+      "chance_damaged_50": 5.0,
+      "chance_damaged_25": 5.0,
+      "chance_damaged_5": 5.0,
+      "chance_damaged_0": 5.0,
+      "npcSpawnEnabled": false,
+      "damagedByNoAtmosphere": false,
+      "damagedByAtmosphere": true,
+      "celestialClasses": {
+        "ICY_WORLD": 10.0,
+        "CLASS_F_STAR": 10.0,
+        "CLASS_G_STAR": 10.0,
+        "ICY_WORLD": 10.0,
+        "CLASS_A_STAR": 10.0,
+        "UNSTABLE_WORLD": 10.0,
+        "CLASS_B_STAR": 10.0,
+        "DESERT_WORLD": 10.0,
+        "CLASS_K_STAR": 10.0,
+        "CLASS_M_STAR": 10.0,
+        "CLASS_T_STAR": 10.0,
+        "CLASS_BLACKHOLE_STAR": 10.0,
+        "CLASS_NEUTRON_STAR": 10.0,
+        "ISLAND_WORLD": 10.0,
+        "BLUE_GAS_GIANT": 10.0,
+        "CLASS_L_STAR": 10.0,
+        "OCEANIC_WORLD": 10.0,
+        "YELLOW_GAS_GIANT": 10.0,
+        "METALLIC_WORLD": 10.0,
+        "TEMPERATE_WORLD": 10.0,
+        "GREEN_GAS_GIANT": 10.0,
+        "PURPLE_GAS_GIANT": 10.0,
+        "CLASS_O_STAR": 10.0,
+        "ROCK_WORLD": 10.0,
+        "RED_GAS_GIANT": 10.0
+      },
+      
+    },
+    "InLowSpace"{
+      "enabled": false,
+      "chance": 5.0,
+      "chance_damaged_90": 5.0,
+      "chance_damaged_75": 5.0,
+      "chance_damaged_50": 5.0,
+      "chance_damaged_25": 5.0,
+      "chance_damaged_5": 5.0,
+      "chance_damaged_0": 5.0,
+      "npcSpawnEnabled": false,
+      "damagedByNoAtmosphere": false,
+      "damagedByAtmosphere": true
+    },
+    "InSpace"{
+      "enabled": false,
+      "chance": 5.0,
+      "chance_damaged_90": 5.0,
+      "chance_damaged_75": 5.0,
+      "chance_damaged_50": 5.0,
+      "chance_damaged_25": 5.0,
+      "chance_damaged_5": 5.0,
+      "chance_damaged_0": 5.0,
+      "npcSpawnEnabled": false,
+      "damagedByNoAtmosphere": false,
+      "damagedByAtmosphere": true
+    },
+    "InHighSpace"{
+      "enabled": false,
+      "chance": 5.0,
+      "chance_damaged_90": 5.0,
+      "chance_damaged_75": 5.0,
+      "chance_damaged_50": 5.0,
+      "chance_damaged_25": 5.0,
+      "chance_damaged_5": 5.0,
+      "chance_damaged_0": 5.0,
+      "npcSpawnEnabled": false,
+      "damagedByNoAtmosphere": false,
+      "damagedByAtmosphere": true
+    }
+  }
+}
